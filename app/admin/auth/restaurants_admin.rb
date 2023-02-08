@@ -6,10 +6,11 @@ Trestle.resource(:restaurants, model: Restaurant, scope: Auth) do
   end
 
   table do
-    column :avatar, header: false do |restaurant|
-      avatar_for(restaurant)
-    end
+    column :name
     column :email, link: true
+    column :address
+    column :opening
+    column :closing
     actions do |a|
       a.delete unless a.instance == current_user
     end

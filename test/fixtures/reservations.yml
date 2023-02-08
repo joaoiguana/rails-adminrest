@@ -1,0 +1,19 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  restaurant: one
+  customer: one
+  name: MyString
+  group_size: 1
+  reservation_date: 2023-02-08 17:43:45
+  status: 1
+  comments: MyText
+
+two:
+  restaurant: two
+  customer: two
+  name: MyString
+  group_size: 1
+  reservation_date: 2023-02-08 17:43:45
+  status: 1
+  comments: MyText
